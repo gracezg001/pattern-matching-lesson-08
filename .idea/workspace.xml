@@ -5,17 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e97a3a3-6399-47fb-84d9-71f030b70edd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/grace/bigdata/application/Main.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/grace/bigdata/application/algoristhm/EmailRules.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/grace/bigdata/application/business/Lottery.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/grace/bigdata/application/algoristhm/BookDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/grace/bigdata/application/algoristhm/ListMatchDemoRunner.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/grace/bigdata/application/algoristhm/PattenMatchOnList.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/grace/bigdata/application/algoristhm/PatternMatchDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/grace/bigdata/application/algoristhm/SequenceMatchDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/grace/bigdata/application/business/HighOrderFunctionDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/grace/bigdata/application/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/grace/bigdata/application/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/grace/bigdata/application/algoristhm/EmailRules.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/grace/bigdata/application/algoristhm/EmailRules.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/grace/bigdata/application/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/grace/bigdata/application/Main$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/grace/bigdata/application/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/grace/bigdata/application/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/grace/bigdata/application/algoristhm/EmailRules$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/grace/bigdata/application/algoristhm/EmailRules$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/grace/bigdata/application/algoristhm/EmailRules.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/grace/bigdata/application/algoristhm/EmailRules.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +52,86 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/zhuge/IdeaProjects/pattern-matching-lesson-08"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/zhuge/IdeaProjects/function-demo-01"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.HighOrderFunctionDemo">
+    <configuration name="BookDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.grace.bigdata.application.algoristhm.BookDemo" />
+      <module name="pattern-matching-lesson-08" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.grace.bigdata.application.algoristhm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HighOrderFunctionDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.grace.bigdata.application.business.HighOrderFunctionDemo" />
+      <module name="pattern-matching-lesson-08" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.grace.bigdata.application.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListMatchDemoRunner" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.grace.bigdata.application.algoristhm.ListMatchDemoRunner" />
+      <module name="pattern-matching-lesson-08" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.grace.bigdata.application.algoristhm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PattenMatchOnList" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.grace.bigdata.application.algoristhm.PattenMatchOnList" />
+      <module name="pattern-matching-lesson-08" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.grace.bigdata.application.algoristhm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatternMatchDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.grace.bigdata.application.algoristhm.PatternMatchDemo" />
+      <module name="pattern-matching-lesson-08" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.grace.bigdata.application.algoristhm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HighOrderFunctionDemo" />
+        <item itemvalue="Application.BookDemo" />
+        <item itemvalue="Application.PatternMatchDemo" />
+        <item itemvalue="Application.PattenMatchOnList" />
+        <item itemvalue="Application.ListMatchDemoRunner" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
